@@ -23,3 +23,7 @@
 - test whether all features are numeric and without any NaN value
 
 ## Model training
+- model selection: well, we always use XGBoost
+- cross validation and hyper parameter tuning
+- need various model evaluation metrics and graphs
+- feature selection: need good metrics to measure feature importance
