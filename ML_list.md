@@ -18,8 +18,10 @@
 - basic stats about the final table: size, shape, uniqueness
 
 ## Data preprocessing
-- imputation
-- encoding: dates, categorial features
+- imputation:  
+  imputation report: imputation strategy, percentage of values to impute, impute with what value.  
+- encoding: dates, categorial features  
+  encoding report: encoding values and distribution  
 - test whether all features are numeric and without any NaN value
 
 ## Model training
@@ -27,3 +29,4 @@
 - cross validation and hyper parameter tuning
 - need various model evaluation metrics and graphs
 - feature selection: need good metrics to measure feature importance
+- trace feature importance drift (measure model stability)
